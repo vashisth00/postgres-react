@@ -2,6 +2,44 @@
   text-align: center;
 }
 
+.name-product{
+height: 65px;}
+
+.card-flex {
+border-radius: 20px;
+padding-top: 10px;
+  float: left;
+  width: 150px;
+  height: 143px;
+  flex-basis: auto;
+  /* flex-direction: row; */
+  /* display: flex; */
+  background-color: white;
+  color: black;
+  margin-right: 10px;
+}
+
+.product-price{
+    background: gray;
+    border-radius: 20px;
+    color: white;
+    width: 38px;
+    padding: 3px;
+}
+
+.card-item {
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+}
+
+.display-flex {
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,6 +70,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
